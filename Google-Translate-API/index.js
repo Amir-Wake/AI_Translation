@@ -23,7 +23,7 @@ const translate = new Translate({
 });
 
 //Recieve send translated text
-app.post("https://kurdaigoogletranslateapi.herokuapp.com/", async (req, res) => {
+app.post("", async (req, res) => {
     const { textToTr, targetLang, sourceLang } = req.body;
     console.log(textToTr + "texttotr");
     try {
