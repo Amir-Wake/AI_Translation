@@ -44,7 +44,7 @@ function App() {
     console.log("message" + messages);
   
     try {
-      const response = await fetch("https://kurdaigoogletranslateapi.herokuapp.com/", {
+      const response = await fetch("", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -105,7 +105,7 @@ function App() {
     console.log("messages="+messages);
     // Send a POST request to the local server with the chat log and the current model
     try {
-      const response = await fetch("https://kurdaichatgptapi.herokuapp.com/", {
+      const response = await fetch("", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
