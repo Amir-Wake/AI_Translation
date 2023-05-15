@@ -1,3 +1,1 @@
-# Influncer: Adrian Twarog
-
-The Website: KurdAi.net
+Multilingual AI Chatbot: Experience the power of AI to write and receive responses in various languages, surpassing the limitations of conventional AI systems. Developed with HTML, CSS, JavaScript, Node.js, and React, this project incorporates the ChatGPT API and Google Translation API. While this version focuses on Kurdish, it can be easily adapted to support other languages. The ChatGPT implementation draws inspiration from Adrian Twarog's insightful work.
