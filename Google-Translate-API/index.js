@@ -16,13 +16,11 @@ let sourceLang="en";
 // Your credentials
 const CREDENTIALS = JSON.parse(process.env.CREDENTIALS);
 
-// Configuration for the client
 const translate = new Translate({
     credentials: CREDENTIALS,
     projectId: CREDENTIALS.project_id
 });
 
-//Recieve send translated text
 app.post("", async (req, res) => {
     const { textToTr, targetLang, sourceLang } = req.body;
     console.log(textToTr + "texttotr");
